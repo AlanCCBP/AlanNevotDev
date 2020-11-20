@@ -1,0 +1,251 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+#the-container {
+    position: relative;
+    height: 800px;
+    overflow: auto;
+}
+
+.nav-link,
+.nav-pills {
+    color: rgba(255, 102, 102);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: rgba(255, 102, 102);
+}
+
+.navbar-brand {
+    color: rgba(255, 102, 102);
+}
+
+#navigation-bar {
+    background-color: #ffffff;
+}
+
+#welcome {
+    color: rgba(255, 102, 102);
+    padding-top: 15rem;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(255, 255, 255);
+    z-index: 10;
+}
+
+.text-exo {
+    font-family: 'Exo', sans-serif;
+}
+
+.text-mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.text-dark {
+    color: rgb(61, 79, 99);
+}
+
+i {
+    font-size: 3rem;
+    font-stretch: extra-expanded;
+}
+
+#portfolio {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(230, 231, 232);
+    z-index: 10;
+}
+
+#can-i-help {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(100, 207, 166, 0.7);
+    z-index: 10;
+    border-bottom: 800px solid rgba(255, 255, 255, 0.7);
+    border-left: 800px solid transparent;
+}
+
+#tech-stack {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background: rgba(255, 102, 102);
+    color: #ffffff;
+}
+
+#about-me {
+    background-color: #ffffff;
+}
+
+#contact-me {
+    width: 100%;
+    height: 70%;
+    left: 0;
+    top: 0;
+    background: rgba(61, 79, 99);
+    z-index: 10;
+}
+
+.a-section {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.help-text {
+    font-size: 1.5rem;
+}
+
+.help-text strong {
+    font-weight: bolder;
+    color: rgba(139, 11, 156, 0.7);
+}
+
+.card {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.card-image {
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.card-placeholder-text {
+    color: rgba(255, 102, 102);
+}
+
+.roboto-title {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    font-weight: bolder;
+}
+
+#tech-stack-title {
+    background: rgba(255, 102, 102);
+    color: #ffffff;
+}
+
+#tech-stack-text {
+    color: #ffffff;
+    margin-left: 2rem;
+}
+
+#contact-me-title {
+    color: #ffffff;
+}
+
+#contact-me-form {
+    margin-top: 8rem;
+}
+
+.icon-small {
+    font-size: 28px;
+}
+
+.icon-medium {
+    font-size: 36px;
+}
+
+#photo-container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    bottom: 20%;
+}
+
+#photo-container:hover {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    filter: grayscale(0%);
+    bottom: 20%;
+}
+
+#photo {
+    display: inline;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 10%;
+    height: 100%;
+    width: auto;
+    transform: scale(1.5)
+}
+
+#contact-me-form label {
+    color: #ffffff;
+}
+
+#button {
+    background-color: rgba(61, 79, 99);
+    color: #ffffff;
+    border-color: #ffffff;
+    font-size: 1rem;
+}
+
+#button:hover {
+    background-color: #ffffff;
+    color: rgba(61, 79, 99);
+    border-color: #ffffff;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+#about-me h1 {
+    color: rgba(255, 102, 102);
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+#about-me h4 {
+    color: rgba(61, 79, 99);
+    text-align: left;
+    margin-top: 2rem;
+}
+
+#about-me h5 {
+    color: rgba(255, 102, 102);
+    text-align: left;
+    margin-top: 0.5rem;
+}
+
+#certs-container {
+    margin-top: 3rem;
+}
+
+#navbar-icons i {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    color: rgba(61, 79, 99);
+}
+
+#navbar-icons i:hover {
+    color: rgba(255, 102, 102);
+}
